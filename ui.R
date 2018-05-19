@@ -13,7 +13,7 @@ shinyUI(fluidPage(
                    value=50,min=1,max=50,step=1),
      
       sliderInput("sliderY","Pick Minimum and Maximum MPG Values",
-                  min(mtcars$mpg),max(mtcars$mpg),value=c(min(mtcars$min),max(mtcars$mpg))),
+                  min(mtcars$mpg),max(mtcars$mpg),value=c(min(mtcars$mpg),max(mtcars$mpg))),
       
       checkboxInput("show_xlab","Show/Hide X Axis Label",value=TRUE),
       checkboxInput("show_ylab","Show/Hide Y Axis Label",value=TRUE),
